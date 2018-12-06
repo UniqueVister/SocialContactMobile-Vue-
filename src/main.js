@@ -6,8 +6,13 @@ Vue.use(VueRouter);
 import VueResource from 'vue-resource'
 Vue.use(VueResource);
 
-import Axios from 'axios'
-Vue.prototype.$ajax=Axios
+// import Axios from 'axios'
+// Vue.prototype.$ajax=Axios
+
+import './lib/mui/css/mui.min.css'
+import './lib/mui/fonts/mui-icons-extra.ttf'
+
+import './css/comment.css'
 
 import { Header,Swipe,SwipeItem } from 'mint-ui'
 Vue.component(Header.name,Header);

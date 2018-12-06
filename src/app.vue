@@ -36,6 +36,9 @@
 </script>
 
 <style lang="scss" scoped>
+.mui-bar {
+  width:100%;
+}
   // .v-enter {
   //   opacity: 0;
   //   transform: translateX(100%);
