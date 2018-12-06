@@ -1,8 +1,6 @@
 <template>
 	<div class="app-container">
         <!-- 顶部 Header 区域 -->
-<!--   <mt-header fixed>
-  </mt-header> -->
     <header class="mui-bar mui-bar-nav">
       <a class="mui-icon mui-icon-camera mui-pull-left"></a>
       <span class="mui-title">关注</span>
